@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Mantener sesión Xamarin.Forms"
+             x:Class="KeepMyLogin.LoginXamSharp">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="30">
+            <Image Source="XamSharpLogo.jpg" WidthRequest="200" HeightRequest="150"/>
+            <Label Text="Introduce tu nombre de usuario"/>
+            <Entry x:Name="Username" Placeholder="david"/>
+            <Button Text="Iniciar sesión" Clicked="btnLoginClick" BackgroundColor="LawnGreen"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
