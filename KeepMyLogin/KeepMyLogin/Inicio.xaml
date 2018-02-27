@@ -4,7 +4,7 @@
              x:Class="KeepMyLogin.Inicio">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Ejemplo de como mantener una sesión." />
+            <Label Text="Ejemplo de como mantener una sesión XamSharp." />
             <Button Text="Cerrar sesión" Clicked="btnLogoutClick"/>
         </StackLayout>
     </ContentPage.Content>
